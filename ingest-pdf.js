@@ -7,7 +7,7 @@ import * as dotenv from 'dotenv';
 
 dotenv.config(); // Loads variables from .env
 
-const PDF_PATH = './survery-manual.pdf'; // Path to your PDF file
+const PDF_PATH = './example-doc.pdf'; // Path to your PDF file
 const CHUNK_SIZE = 1000; // Text chunk size
 const CHUNK_OVERLAP = 200; // Overlap between chunks
 
