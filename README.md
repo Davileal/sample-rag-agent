@@ -36,8 +36,8 @@ A simple Node.js project that implements **RAG (Retrieval-Augmented Generation)*
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/pdf-chatbot-rag.git
-cd pdf-chatbot-rag
+git clone https://github.com/Davileal/sample-rag-agent.git
+cd sample-rag-agent
 ```
 
 ### 2. Install Dependencies
