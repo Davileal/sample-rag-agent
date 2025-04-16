@@ -1,0 +1,26 @@
+{
+  "name": "rag-agent",
+  "version": "1.0.0",
+  "description": "A simple RAG (Retrieval-Augmented Generation) project that loads a PDF into Pinecone and uses it as a knowledge base for a chatbot powered by OpenAI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "ingest": "node ingest.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davi Leal",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@langchain/community": "^0.3.40",
+    "@langchain/openai": "^0.5.5",
+    "@langchain/pinecone": "^0.2.0",
+    "@pinecone-database/pinecone": "^5.1.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.21",
+    "openai": "^4.95.0",
+    "pdf-parse": "^1.1.1",
+    "pinecone-client": "^2.0.0"
+  }
+}
