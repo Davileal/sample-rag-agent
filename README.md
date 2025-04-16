@@ -68,7 +68,15 @@ PINECONE_INDEX_NAMESPACE=your_pinecone_index_namespace
 
 ## 📄 Ingest Your PDF
 
-Replace `example-doc.pdf` with your own document.
+### 1. Add your own PDF
+
+Place your documentation file and update the file name in the following line:
+
+```ts
+const PDF_PATH = './docs/example-doc.pdf';
+```
+
+This line is located in the `ingest-pdf.js` file. You can rename it to match your own file name if needed.
 
 Then run:
 
