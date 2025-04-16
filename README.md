@@ -51,12 +51,15 @@ npm install
 Create a `.env` file in the root with the following content:
 
 ```env
+# OpenAI
 OPENAI_API_KEY=your_openai_api_key
+OPENAI_CHAT_MODEL=gpt-4 # or gpt-3.5-turbo
+OPENAI_EMBEDDING_MODEL=text-embedding-3-small
+
+# Pinecone
 PINECONE_API_KEY=your_pinecone_api_key
 PINECONE_INDEX=your_pinecone_index_name
-OPENAI_EMBEDDING_MODEL=text-embedding-3-small
-OPENAI_CHAT_MODEL=gpt-3.5-turbo
-PORT=3000
+PINECONE_INDEX_NAMESPACE=your_pinecone_index_namespace
 ```
 
 > ⚠️ Make sure your Pinecone index exists and matches the correct embedding dimensions (e.g., 1536 for `text-embedding-3-small`).
